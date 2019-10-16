@@ -504,6 +504,7 @@ $config['time_reference'] = 'local';
 */
 $config['rewrite_short_tags'] = FALSE;
 
+
 /*
 |--------------------------------------------------------------------------
 | Reverse Proxy IPs

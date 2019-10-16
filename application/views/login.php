@@ -1,6 +1,6 @@
 <?php include("inc/header.php"); ?>
 <div id="container">
-	<?php echo form_open("welcome/signin", ['class' => 'form-horizontal']); ?>
+	<?php echo form_open("homepage/signin", ['class' => 'form-horizontal']); ?>
 	<?php if($error = $this->session->flashdata('message')):?>
 		<div class="row">
 				<div class="col-md-6">
@@ -10,11 +10,6 @@
 				</div>
 		</div>
 	<?php endif; ?>
-	<div class="jumbotron">
-	<h6 class="text-center text-bold display-3">Admin Login</h6>
-	<hr>
-</div>
-
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
